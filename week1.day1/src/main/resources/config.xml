@@ -6,7 +6,8 @@
 
     <!-- bean definitions here -->
     <bean class="com.springCore.Engine" id="engine">
-    	<property name="companyName" value="Ford"></property>
+    	<!-- <property name="companyName" value="Ford"></property> -->
+    	<constructor-arg name="companyName" value="Ford"/>
     
     </bean>
 	<!--  
