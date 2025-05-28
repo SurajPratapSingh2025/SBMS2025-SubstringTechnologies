@@ -1,1 +1,1 @@
-# javaEE / j2ee
+# spring starter project
